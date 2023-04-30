@@ -99,7 +99,7 @@ public class Calculator implements ActionListener {
             String[] terms = expression.split("[+\\-*/]");
             double num1 = Double.parseDouble(terms[0]);
             double num2 = Double.parseDouble(terms[1]);
-            double result = 0.0;
+            double result = 0.00;
 
             if (expression.contains("+")) {
                 result = num1 + num2;
